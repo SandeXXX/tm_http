@@ -20,4 +20,5 @@ func RegisterRoutes(e *echo.Echo) {
 	// e.POST("/login", auth.Login)
 	// e.POST("/logout", auth.Logout)
 	// e.POST("/change_pw", auth.ChangePassword)
+	// e.PUT("/profile/:id, handlers.UpdateSettingsHandler)
 }

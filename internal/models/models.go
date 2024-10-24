@@ -15,6 +15,13 @@ type User struct {
 	UpdatedAt time.Time `json:"updated_at"`
 }
 
+type FormData struct {
+	Email     string    `form:"email"`     //noreq
+	Name      string    `form:"name"`      //noreq
+	FullName  string    `form:"full_name"` //noreq
+	Contacts  string    `form:"contacts"`  //req
+}
+
 type SignUpParams struct {
 	Email    string `json:"email"`
 	Password string `json:"password"`

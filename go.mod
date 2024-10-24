@@ -3,6 +3,7 @@ module app
 go 1.22.4
 
 require (
+	github.com/Masterminds/squirrel v1.5.4
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/jmoiron/sqlx v1.4.0
@@ -14,7 +15,6 @@ require (
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
-	github.com/Masterminds/squirrel v1.5.4 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
